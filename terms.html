@@ -1,0 +1,96 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Điều khoản sử dụng · Đếm ngày yêu</title><meta name="description" content="These terms apply when you use the Đếm ngày yêu app on iPhone."><meta name="color-scheme" content="light dark"><style>
+:root{--bg:#FFFFFF;--subtle:#F6F5F2;--ink:#14161B;--ink2:#555B66;--ink3:#80858F;--line:#E6E3DD;--accent:#8A5A1F;--accent-soft:#F5EBDD;--a:#E7A955;--b:#6F8FD8;
+--sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D0F14;--subtle:#151820;--ink:#ECEAE5;--ink2:#A3A7B0;--ink3:#7D828C;--line:#252935;--accent:#E9B872;--accent-soft:#2A2218;--a:#F4C27F;--b:#9DBBFF;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0D0F14;--subtle:#151820;--ink:#ECEAE5;--ink2:#A3A7B0;--ink3:#7D828C;--line:#252935;--accent:#E9B872;--accent-soft:#2A2218;--a:#F4C27F;--b:#9DBBFF;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 var(--sans);-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
+.bar-in{max-width:1080px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px;color:var(--ink);text-decoration:none;margin-right:auto;white-space:nowrap}
+.mark{position:relative;width:22px;height:22px;border-radius:7px;background:#0B1424;flex:none}
+.mark::before,.mark::after{content:"";position:absolute;width:5px;height:5px;border-radius:50%}
+.mark::before{left:5px;top:12px;background:#F4C27F;box-shadow:0 0 6px #F4C27F}
+.mark::after{left:13px;top:5px;background:#9DBBFF;box-shadow:0 0 6px #9DBBFF}
+.tabs{display:flex;gap:2px}
+.tabs a{font-size:14px;color:var(--ink2);text-decoration:none;padding:6px 10px;border-radius:8px;white-space:nowrap}
+.tabs a[aria-current="page"]{color:var(--ink);background:var(--subtle);font-weight:500}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.lang button{all:unset;cursor:pointer;font-size:12.5px;font-weight:500;padding:4px 9px;color:var(--ink2);font-family:var(--sans)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+@media (max-width:560px){.brand span{display:none}.bar-in{gap:10px}}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.hero{padding:56px 0 32px;max-width:720px}
+.eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(32px,5vw,44px);line-height:1.12;letter-spacing:-.025em;font-weight:700;margin:10px 0 14px;text-wrap:balance}
+.lede{font-size:18px;color:var(--ink2);margin:0;max-width:62ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:20px;font-size:13.5px;color:var(--ink3)}
+.meta b{color:var(--ink2);font-weight:500}
+.glance{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:14px;margin:8px 0 48px;overflow:hidden}
+.glance div{padding:18px 20px;border-left:1px solid var(--line)}
+.glance div:first-child{border-left:0}
+.glance h3{margin:0 0 4px;font-size:15px;display:flex;align-items:center;gap:8px}
+.glance h3::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.glance p{margin:0;font-size:14px;color:var(--ink2);line-height:1.55}
+@media (max-width:720px){.glance{grid-template-columns:1fr}.glance div{border-left:0;border-top:1px solid var(--line)}.glance div:first-child{border-top:0}}
+.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:56px;padding-bottom:72px;border-top:1px solid var(--line);padding-top:40px}
+@media (max-width:860px){.layout{grid-template-columns:1fr;gap:24px}.toc{position:static!important}}
+.toc{position:sticky;top:84px;align-self:start;font-size:13.5px}
+.toc p{margin:0 0 10px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--line)}
+.toc a{display:flex;gap:8px;padding:4px 0 4px 14px;margin-left:-1px;border-left:2px solid transparent;color:var(--ink2);text-decoration:none;line-height:1.4}
+.toc a span{color:var(--ink3);font-variant-numeric:tabular-nums;min-width:16px}
+.toc a.on{color:var(--ink);border-left-color:var(--accent)}
+@media (max-width:860px){.toc ol{display:grid;grid-template-columns:1fr 1fr;border-left:0;gap:0 16px}.toc a{padding-left:0;border-left:0}}
+article{max-width:700px}
+section{padding:0 0 36px}
+section+section{border-top:1px solid var(--line);padding-top:32px}
+h2{font-size:21px;letter-spacing:-.01em;line-height:1.3;margin:0 0 12px;display:flex;gap:12px;align-items:baseline}
+h2 span{font-size:14px;font-weight:500;color:var(--ink3);font-variant-numeric:tabular-nums}
+article p{margin:0 0 12px;color:var(--ink2)}
+article ul{margin:0 0 12px;padding-left:20px;color:var(--ink2)}
+article li{margin:4px 0}
+article li::marker{color:var(--ink3)}
+article b{color:var(--ink);font-weight:600}
+.tbl{overflow-x:auto;margin:6px 0 16px;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:14.5px;line-height:1.5}
+th{text-align:left;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3);background:var(--subtle);padding:10px 14px;border-bottom:1px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink2)}
+tr:last-child td{border-bottom:0}
+td:first-child{color:var(--ink);font-weight:500;min-width:150px}
+@media (max-width:600px){.tbl{border:0;border-radius:0;overflow:visible}table,tbody,tr,td{display:block}thead{display:none}tr{border:1px solid var(--line);border-radius:12px;padding:6px 14px;margin-bottom:10px}td{padding:6px 0;border:0}td::before{content:attr(data-label);display:block;font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3)}td:first-child{min-width:0}}
+footer{border-top:1px solid var(--line);background:var(--subtle)}
+.foot{max-width:1080px;margin:0 auto;padding:28px 20px 40px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;font-size:13.5px;color:var(--ink3)}
+.foot a{color:var(--ink2);text-decoration:none}
+.foot .sp{margin-right:auto}
+[hidden]{display:none!important}
+</style></head><body>
+<header class="bar"><div class="bar-in"><a class="brand" href="privacy.html"><i class="mark" aria-hidden="true"></i><span>Đếm ngày yêu</span></a><nav class="tabs"><a data-href="privacy.html" href="privacy.html" ><span data-lang="vi">Quyền riêng tư</span><span data-lang="en" hidden>Privacy</span></a><a data-href="terms.html" href="terms.html" aria-current="page"><span data-lang="vi">Điều khoản</span><span data-lang="en" hidden>Terms</span></a></nav><div class="lang" role="group" aria-label="Language"><button data-l="vi">VI</button><button data-l="en">EN</button></div></div></header>
+<main data-lang="vi" class="wrap">
+<div class="hero"><div class="eyebrow">Pháp lý</div><h1>Điều khoản sử dụng</h1><p class="lede">Các điều khoản này áp dụng khi bạn dùng ứng dụng Đếm ngày yêu trên iPhone.</p>
+<div class="meta"><span>Hiệu lực từ: <b>13/10/2026</b></span><span>Phiên bản: <b>1.0</b></span><span>Ứng dụng iOS Đếm ngày yêu</span></div></div>
+<div class="layout"><nav class="toc" aria-label="Mục lục"><p>Mục lục</p><ol><li><a href="#accept-vi"><span>1.</span>Chấp nhận điều khoản</a></li><li><a href="#service-vi"><span>2.</span>Dịch vụ</a></li><li><a href="#account-vi"><span>3.</span>Tài khoản và ghép đôi</a></li><li><a href="#content-vi"><span>4.</span>Nội dung của bạn</a></li><li><a href="#rules-vi"><span>5.</span>Quy tắc sử dụng</a></li><li><a href="#delete-vi"><span>6.</span>Xoá tài khoản và chấm dứt</a></li><li><a href="#availability-vi"><span>7.</span>Tính sẵn có</a></li><li><a href="#liability-vi"><span>8.</span>Giới hạn trách nhiệm</a></li><li><a href="#apple-vi"><span>9.</span>Apple</a></li><li><a href="#law-vi"><span>10.</span>Luật áp dụng</a></li><li><a href="#changes-vi"><span>11.</span>Thay đổi điều khoản</a></li><li><a href="#contact-vi"><span>12.</span>Liên hệ</a></li></ol></nav><article><section id="accept-vi"><h2><span>1.</span>Chấp nhận điều khoản</h2><p>Khi tải về hoặc dùng ứng dụng, bạn đồng ý với các điều khoản này và với Chính sách quyền riêng tư. Nếu không đồng ý, vui lòng không dùng ứng dụng.</p></section><section id="service-vi"><h2><span>2.</span>Dịch vụ</h2><p>Ứng dụng giúp hai người đếm ngày bên nhau, viết nhật ký, lưu kỷ niệm, nhận nhắc ngày lễ và đồng bộ giữa hai điện thoại. Ứng dụng miễn phí và không có quảng cáo.</p></section><section id="account-vi"><h2><span>3.</span>Tài khoản và ghép đôi</h2><ul><li>Bạn có thể dùng mà không đăng nhập, hoặc đăng nhập bằng Apple hay Google.</li><li>Mỗi cặp đôi gồm tối đa hai máy. Người đã kết nối xem và sửa được nội dung chung.</li><li>Bạn chịu trách nhiệm giữ an toàn tài khoản và chỉ gửi mã mời cho đúng người.</li></ul></section><section id="content-vi"><h2><span>4.</span>Nội dung của bạn</h2><p>Chữ và ảnh bạn tạo thuộc về bạn. Bạn chỉ cho phép chúng tôi lưu trữ và truyền nội dung đó để cung cấp tính năng sao lưu và đồng bộ.</p></section><section id="rules-vi"><h2><span>5.</span>Quy tắc sử dụng</h2><ul><li>Không lưu hay chia sẻ nội dung vi phạm pháp luật hoặc xâm phạm quyền của người khác.</li><li>Không tìm cách truy cập trái phép, làm quá tải hoặc can thiệp vào máy chủ.</li><li>Không sao chép, bán lại hay dịch ngược ứng dụng.</li></ul></section><section id="delete-vi"><h2><span>6.</span>Xoá tài khoản và chấm dứt</h2><p>Bạn có thể huỷ kết nối, xoá dữ liệu đã đồng bộ hoặc xoá tài khoản bất cứ lúc nào trong Cài đặt › Sao lưu & kết nối. Việc xoá không thể hoàn tác. Chúng tôi có thể tạm khoá tài khoản vi phạm các quy tắc trên.</p></section><section id="availability-vi"><h2><span>7.</span>Tính sẵn có</h2><p>Chúng tôi cố gắng giữ dịch vụ ổn định nhưng không cam kết hoạt động liên tục, và có thể thay đổi hoặc ngừng tính năng. Nếu ngừng dịch vụ đồng bộ, chúng tôi sẽ báo trước trong ứng dụng.</p></section><section id="liability-vi"><h2><span>8.</span>Giới hạn trách nhiệm</h2><p>Ứng dụng được cung cấp “như hiện có”. Trong phạm vi pháp luật cho phép, chúng tôi không chịu trách nhiệm cho thiệt hại gián tiếp hoặc mất dữ liệu ngoài khả năng kiểm soát của chúng tôi.</p></section><section id="apple-vi"><h2><span>9.</span>Apple</h2><p>Các điều khoản này là thoả thuận giữa bạn và nhà phát triển, không phải với Apple. Apple không chịu trách nhiệm về ứng dụng hay nội dung của ứng dụng. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Thoả thuận cấp phép tiêu chuẩn của Apple (EULA)</a> cũng được áp dụng.</p></section><section id="law-vi"><h2><span>10.</span>Luật áp dụng</h2><p>Các điều khoản này tuân theo pháp luật Việt Nam.</p></section><section id="changes-vi"><h2><span>11.</span>Thay đổi điều khoản</h2><p>Khi điều khoản thay đổi, ngày hiệu lực ở đầu trang sẽ đổi theo. Với thay đổi quan trọng, ứng dụng sẽ hỏi bạn đồng ý lại.</p></section><section id="contact-vi"><h2><span>12.</span>Liên hệ</h2><p>Gửi câu hỏi về <a href="mailto:nguyenhieu157380@gmail.com">nguyenhieu157380@gmail.com</a>.</p></section></article></div></main><main data-lang="en" class="wrap" hidden>
+<div class="hero"><div class="eyebrow">Legal</div><h1>Terms of Use</h1><p class="lede">These terms apply when you use the Đếm ngày yêu app on iPhone.</p>
+<div class="meta"><span>Effective: <b>October 13, 2026</b></span><span>Version: <b>1.0</b></span><span>Đếm ngày yêu for iOS</span></div></div>
+<div class="layout"><nav class="toc" aria-label="Contents"><p>Contents</p><ol><li><a href="#accept-en"><span>1.</span>Accepting these terms</a></li><li><a href="#service-en"><span>2.</span>The service</a></li><li><a href="#account-en"><span>3.</span>Accounts and pairing</a></li><li><a href="#content-en"><span>4.</span>Your content</a></li><li><a href="#rules-en"><span>5.</span>Acceptable use</a></li><li><a href="#delete-en"><span>6.</span>Deletion and termination</a></li><li><a href="#availability-en"><span>7.</span>Availability</a></li><li><a href="#liability-en"><span>8.</span>Limitation of liability</a></li><li><a href="#apple-en"><span>9.</span>Apple</a></li><li><a href="#law-en"><span>10.</span>Governing law</a></li><li><a href="#changes-en"><span>11.</span>Changes to these terms</a></li><li><a href="#contact-en"><span>12.</span>Contact</a></li></ol></nav><article><section id="accept-en"><h2><span>1.</span>Accepting these terms</h2><p>By downloading or using the app you agree to these terms and to the Privacy Policy. If you do not agree, please do not use the app.</p></section><section id="service-en"><h2><span>2.</span>The service</h2><p>The app helps two people count their days together, keep a journal and memories, get holiday reminders and sync between two phones. It is free and has no ads.</p></section><section id="account-en"><h2><span>3.</span>Accounts and pairing</h2><ul><li>You can use the app without signing in, or sign in with Apple or Google.</li><li>Each couple has at most two phones. Your paired partner can view and edit shared content.</li><li>You are responsible for keeping your account safe and sending invite codes only to the right person.</li></ul></section><section id="content-en"><h2><span>4.</span>Your content</h2><p>Text and photos you create belong to you. You only allow us to store and transmit them to provide backup and sync.</p></section><section id="rules-en"><h2><span>5.</span>Acceptable use</h2><ul><li>Do not store or share unlawful content or content that infringes others' rights.</li><li>Do not try to gain unauthorised access to, overload or interfere with the servers.</li><li>Do not copy, resell or reverse-engineer the app.</li></ul></section><section id="delete-en"><h2><span>6.</span>Deletion and termination</h2><p>You can unpair, delete synced data or delete your account at any time in Settings › Backup & pairing. Deletion cannot be undone. We may suspend accounts that break the rules above.</p></section><section id="availability-en"><h2><span>7.</span>Availability</h2><p>We aim to keep the service available but do not guarantee uninterrupted operation, and features may change or end. If sync is discontinued, we will announce it in the app in advance.</p></section><section id="liability-en"><h2><span>8.</span>Limitation of liability</h2><p>The app is provided “as is”. To the extent permitted by law, we are not liable for indirect damages or data loss beyond our reasonable control.</p></section><section id="apple-en"><h2><span>9.</span>Apple</h2><p>These terms are between you and the developer, not Apple. Apple is not responsible for the app or its content. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple's Standard Licensed Application EULA</a> also applies.</p></section><section id="law-en"><h2><span>10.</span>Governing law</h2><p>These terms are governed by the laws of Vietnam.</p></section><section id="changes-en"><h2><span>11.</span>Changes to these terms</h2><p>When these terms change, the effective date at the top is updated. For important changes, the app asks you to agree again.</p></section><section id="contact-en"><h2><span>12.</span>Contact</h2><p>Questions: <a href="mailto:nguyenhieu157380@gmail.com">nguyenhieu157380@gmail.com</a>.</p></section></article></div></main>
+<footer><div class="foot"><span class="sp">© 2026 Đếm ngày yêu</span><a href="privacy.html"><span data-lang="vi">Quyền riêng tư</span><span data-lang="en" hidden>Privacy</span></a><a href="terms.html"><span data-lang="vi">Điều khoản</span><span data-lang="en" hidden>Terms</span></a><a href="mailto:nguyenhieu157380@gmail.com">nguyenhieu157380@gmail.com</a></div></footer>
+<script>
+(function(){
+ var langs=document.querySelectorAll('[data-lang]'),btns=document.querySelectorAll('.lang button');
+ function pick(){if(location.hash==='#en'||location.hash==='#vi')return location.hash.slice(1);try{var s=localStorage.getItem('lang');if(s)return s}catch(e){}return (navigator.language||'').toLowerCase().indexOf('vi')===0?'vi':'en'}
+ function set(l,save){document.documentElement.lang=l;langs.forEach(function(e){e.hidden=e.getAttribute('data-lang')!==l});btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l)});
+  document.title=document.querySelector('[data-lang="'+l+'"] h1').textContent+' · Đếm ngày yêu';
+  document.querySelectorAll('.tabs a').forEach(function(a){a.href=a.dataset.href+'#'+l});
+  if(save){try{localStorage.setItem('lang',l)}catch(e){}history.replaceState(null,'','#'+l)} spy()}
+ btns.forEach(function(b){b.onclick=function(){set(b.dataset.l,true)}});
+ var io;function spy(){if(io)io.disconnect();if(!('IntersectionObserver' in window))return;var root=document.querySelector('[data-lang]:not([hidden])');var links=root.querySelectorAll('.toc a');
+  io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-90px 0px -65% 0px'});
+  root.querySelectorAll('section').forEach(function(s){io.observe(s)})}
+ set(pick(),false);
+})();
+</script></body></html>
